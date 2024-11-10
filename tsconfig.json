@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "client/src/**/*.ts",
+    "client/src/**/*.tsx",
+    "server/src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "client/src/**/*.test.js",
+    "client/src/**/*.test.ts",
+    "client/src/**/*.spec.js",
+    "server/src/**/*.test.js",
+    "server/src/**/*.test.ts",
+    "server/src/**/*.spec.js"
+  ]
+}
