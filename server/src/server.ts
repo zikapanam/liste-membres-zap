@@ -1,11 +1,11 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import { fetchZapRecords } from './services/AirtableService';
 
 const app = express();
 const port = Number(process.env.PORT) || 5000;
 
 // API endpoint pour récupérer les enregistrements
-app.get('/api/zap-records', async (req, res) => {
+app.get('/api/zap-records', async (req: Request, res: Response) => {
   try {
     const records = await fetchZapRecords();
     res.json(records);
