@@ -19,7 +19,9 @@ npm install
 # Compiler transcript
 Dans root projet:
 
+```
 npx tsc 
+```
 
 # Démarrer le serveur
 
