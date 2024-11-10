@@ -12,6 +12,11 @@ cd server
 rm -rf node_modules package-lock.json
 npm install
 
+# Compiler transcript
+Dans root projet:
+
+npx tsc 
+
 # Démarrer le serveur
 cd server && npx nodemon
 
